@@ -1,0 +1,27 @@
+/* Icons */
+.table-icons{
+    color:#2b8be5;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+hr{
+    margin:5px 0px !important;
+}
+
+body[data-sidebar="dark"].vertical-collpsed {
+    min-height: 100%;
+}
+
+._loading_overlay_wrapper{
+    position:inherit !important;
+}
+._loading_overlay_overlay{
+    z-index: 9999;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

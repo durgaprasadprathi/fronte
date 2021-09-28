@@ -1,0 +1,23 @@
+.action-button{
+    padding: 2px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    background-color: #dbe3ed;
+    margin: 0px 10px 8px 0px;
+}
+
+.action-button:hover{
+    background-color:#e2e2e2;
+}
+
+.action-button-icon{
+    color:#2b8be5;
+    font-size: 20px;
+    display: flex;
+}
+
+.action-button-title{
+    font-size: 13px;
+}

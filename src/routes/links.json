@@ -1,0 +1,27 @@
+[
+    {
+        "heading":"Admin",
+        "children":[
+            {
+                "name":"Organization",
+                "route":"/organization",
+                "icon":"ri-parent-fill"            
+            },
+            {
+                "name":"Users",
+                "route":"/users",
+                "icon":"ri-user-fill"            
+            },
+            {
+                "name":"Workspace",
+                "route":"/workspace",
+                "icon":"ri-stack-fill"            
+            },
+            {
+                "name":"Roles",
+                "route":"/roles",
+                "icon":"ri-shield-user-fill"            
+            }
+        ]
+    }
+]

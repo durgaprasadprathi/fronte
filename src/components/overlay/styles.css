@@ -1,0 +1,45 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    background-color: #fbfbfb;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+    
+}
+
+.sidenav a:hover {
+    color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: -12px;
+    right: 18px;
+    font-size: 36px;
+}
+
+.overlay-content{
+    padding: 0px 8px 4px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    transition: 0.1s;
+}
+.modal-title{
+    padding-left: 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

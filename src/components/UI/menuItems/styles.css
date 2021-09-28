@@ -1,0 +1,18 @@
+.canvas-menu-item{
+    font-size:1rem;
+    width: 100%;
+    
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+    padding-left: 5px;
+    padding-left: 30px;
+    border-left: 3px solid transparent;
+}
+
+
+.canvas-menu-item:hover{
+    border-left: 3px solid red;
+    background: #212121;
+}

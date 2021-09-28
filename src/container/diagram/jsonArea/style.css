@@ -1,0 +1,11 @@
+.json-area{
+    width: 100vw;
+    height: 201px;
+    border: 2px solid rgb(0, 0, 0);
+    z-index: 999;
+    bottom: 0;
+    position: absolute;
+    background: white;
+    left: 0px;
+    padding: 20px;
+}

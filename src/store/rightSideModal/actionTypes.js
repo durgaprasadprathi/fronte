@@ -1,0 +1,1 @@
+export const RIGHT_SIDE_MODAL = 'RIGHT_SIDE_MODAL';

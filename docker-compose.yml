@@ -1,0 +1,12 @@
+version: "3.2"
+services:
+  react_admin:
+    restart: always
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_API_URL=http://128.199.17.156:8080/execution1/v1/
+    ports:
+      - '3005:80'
+    container_name: admin_dash
