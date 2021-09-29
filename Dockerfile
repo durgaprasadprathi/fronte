@@ -1,5 +1,5 @@
 # pull official base image
-FROM node:12 as admin_dash
+FROM node:14 as admin_dash
 
 # set working directory
 WORKDIR /app
